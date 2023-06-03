@@ -102,6 +102,13 @@ docker-compose up --build
 Isso irá construir as imagens e iniciar os containers com base nas configurações definidas no arquivo
 docker-compose.yml.
 
+### Executar container
+Para executar o container, sem reconstruir, utilize o comando:
+
+```shell
+docker compose up
+```
+
 - O código fonte do projeto está vinculado ao contêiner e será sincronizado automaticamente. <br>
 Isso significa que qualquer alteração feita nos arquivos locais será refletida no contêiner em tempo real.
 
